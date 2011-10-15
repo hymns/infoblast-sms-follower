@@ -45,7 +45,7 @@ function sms_install()
 		dbDelta($sql);
 		
 		add_option('sms_header', 'Follow updates via SMS');
-		add_option('sms_footer', 'SMS Follower Plugin by <a href="http://www.hamizi.net">Muhammad Hamizi Jaminan</a>');
+		add_option('sms_footer', 'Driven by <a href=\"http://wordpress.org/extend/plugins/infoblast-sms-follower/\">SMS Follower Plugin</a>');
 		add_option('sms_max','1600');
 		add_option('sms_version', $sms_version);
 		add_option('sms_signature', '- Sent by SMS Follower Plugin');

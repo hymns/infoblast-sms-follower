@@ -29,7 +29,7 @@ function sms_settings_page()
 	$sms_footer = get_option( "sms_footer" );
 ?>
 	<div class="wrap">
-		<h2>Infoblast SMS Subscription Manager Options</h2>
+		<h2>Infoblast SMS Follower Settings</h2>
 		
 		<br/>
 		<p>Get your FREE account at <a href="http://www.infoblast.com.my" target="_blank">www.infoblast.com.my</a>.</p>
